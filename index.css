@@ -1,0 +1,441 @@
+body, html {
+    background-image: url('child.jpg');
+    background-position: 35% 47%;
+    background-size: auto;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none; 
+    overflow: hidden;
+    touch-action: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans HK', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+#wrapper {
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(46,54,54,0.8);
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: yellow;
+}
+
+
+
+.visib {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.introtext2 {
+    margin-bottom: 2%;
+    font-size: 1.2em;
+}
+
+#first {
+    text-align: center;
+}
+
+.introtext3 {
+    margin-top: 1%;
+    padding-top: 0;
+    text-align: left;
+    font-size: 0.8em;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.introtext4 {
+    margin-top: 2%;
+    padding-top: 0;
+    text-align: left;
+    font-size: 1em;
+    margin-left: 30%;
+}
+
+#text6 {
+    font-size: 0.7em;
+}
+
+
+#littlediv {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    margin-left: -50%;
+    height: 20%;
+    width: 100%;
+    color: white;
+}
+
+
+/* tablet portrait */
+@media (max-width: 1199.98px) {
+
+    #wrapper {
+        position: absolute;
+        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(46,54,54,0.8);
+        height: 100%;
+        width: 100%;    
+    }
+
+    #littlediv {
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        z-index: 2;
+        left: 50%;
+        margin-top: 0;
+        margin-left: -50%;
+        width: 100%;
+        color: white;
+    }
+    .introtext2 {
+        margin-bottom: 2%;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 0%;
+    }
+    
+    .introtext3 {
+        margin-top: 1%;
+        padding-top: 0;
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .introtext4 {
+        margin-top: 5%;
+        padding-top: 0;
+        text-align: center;
+        font-size: 1.8em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #text6 {
+        margin-top: 6%;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #littlediv2 {
+        height: 100%;
+    }
+  
+}
+
+/* tablet landscape */
+@media (max-width: 1025px) and (max-height: 769px) {
+
+    #wrapper {
+        position: absolute;
+        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(46,54,54,0.8);
+        height: 100%;
+        width: 100%;
+    }
+
+    .introtext2 {
+        margin-bottom: 2%;
+        font-size: 2em;
+        margin-top: 2%;
+    }
+
+    #first {
+        text-align: center;
+    }
+    
+    .introtext3 {
+        margin-top: 1%;
+        padding-top: 0;
+        text-align: left;
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .introtext4 {
+        margin-top: 2%;
+        padding-top: 0;
+        text-align: left;
+        font-size: 1.5em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #text6 {
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+   
+
+
+   
+}
+
+/* big tablet landscape */
+@media (min-width: 1280px) and
+        (max-width: 1441px) and 
+        (min-height: 780px) and 
+        (max-height: 1025px) {
+
+            #littlediv {
+                top: 3%;
+            }
+
+
+            .introtext2 {
+                font-size: 1.9em;
+            }
+
+            .introtext4 {
+                font-size: 1.5em;
+            }
+    
+   
+}
+
+/* small tablet */
+@media (max-width: 719.98px) {
+
+    #wrapper {
+        position: absolute;
+        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(46,54,54,0.8);
+        height: 100%;
+        width: 100%;
+    }
+
+ 
+
+    #littlediv {
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 50%;
+        margin-left: -50%;
+        height: 50%;
+        width: 100%;
+        color: white;
+    }
+
+  
+
+   
+  
+    
+} 
+/* small phone */
+@media (max-width: 481px) and (max-height: 530px){
+
+    #littlediv {
+        top:5%;
+    }
+   
+    .introtext2 {
+        font-size: 1em;
+    }
+    .introtext3 {
+        font-size: 0.7em;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .introtext4 {
+        font-size: 0.8em;
+        text-align: center;
+    }
+    #text6 {
+        margin-top: 5%;
+        font-size: 0.5em;
+        margin-bottom: 5%;
+    }
+   
+}
+
+/* medium phone */
+@media (max-width: 481px) and 
+        (min-height: 531px) and
+        (max-height: 601px) {
+            .introtext2 {
+                font-size: 1em;
+            }
+            .introtext3 {
+                margin-top: 3%;
+                font-size: 0.7em;
+                text-align: center;
+                margin-bottom: 6%;
+            }
+            .introtext4 {
+                font-size: 0.8em;
+                text-align: center;
+                
+            }
+            #text6 {
+                font-size: 0.6em;
+                margin-bottom: 3%;
+            }
+}
+/* phone */
+@media (max-width: 481px) and (min-height: 602px) {
+    .introtext2 {
+        font-size: 2em;
+    }
+    .introtext3 {
+        margin-top: 3%;
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .introtext4 {
+        font-size: 1.2em;
+        text-align: center;
+        
+    }
+    #text6 {
+        font-size: 0.9em;
+        margin-bottom: 2%;
+    }
+}
+
+/* phone landscape */
+@media (min-width: 451px) and (max-height: 480px) {
+
+    #wrapper {
+        position: absolute;
+        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(46,54,54,0.8);
+        height: 100%;
+        width: 100%;
+    }
+
+    #littlediv {
+        top: 4%;
+    }
+    .introtext2 {
+        margin-bottom: 0.5%;
+        font-size: 1.5em;
+    }
+
+    #first {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    
+    .introtext3 {
+        margin-top: 1%;
+        padding-top: 0;
+        text-align: left;
+        font-size: 1em;
+        margin-bottom: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .introtext4 {
+        margin-top: 1%;
+        padding-top: 0;
+        text-align: left;
+        font-size: 1.1em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #text6 {
+        margin-top: 5%;
+        margin-bottom: 2%;
+       
+    }
+    
+}
+
+    /* big phone landscape */
+@media (min-width: 1200px) and (max-height: 721px) {
+
+    #wrapper {
+        position: absolute;
+        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(46,54,54,0.8);
+        height: 100%;
+        width: 100%;
+    }
+
+    .introtext2 {
+        margin-bottom: 2%;
+        font-size: 2em;
+        margin-top: 2%;
+    }
+
+    #first {
+        text-align: center;
+    }
+    
+    .introtext3 {
+        margin-top: 1%;
+        padding-top: 0;
+        text-align: left;
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .introtext4 {
+        margin-top: 2%;
+        padding-top: 0;
+        text-align: left;
+        font-size: 1.5em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #text6 {
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+   
+}
+
